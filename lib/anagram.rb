@@ -5,7 +5,7 @@ class Anagram
    word.match 
  end 
  def match(anagram_array)
-anagram_array.select do 
+anagram_array.select do |w| (@word.chars.sort) == (w.charss.sort)
 end
   
     
