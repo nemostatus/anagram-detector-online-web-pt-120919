@@ -8,6 +8,7 @@ class Anagram
 anagram_array.select do |w| (@word.chars.sort) == (w.charss.sort)
 end
 end
+end
   
     
     
